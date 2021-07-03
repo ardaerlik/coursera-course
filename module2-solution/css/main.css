@@ -19,7 +19,6 @@ section {
   border-color: black;
   float: left;
   max-width: 400px;
-  max-height: fit-content;
   margin: 20px;
 }
 
@@ -70,7 +69,6 @@ p.dummy {
 
   section {
     width: 28%;
-    height: fit-content;
   }
 }
 
@@ -103,7 +101,6 @@ p.dummy {
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
-    height: fit-content;
     justify-content: center;
     display: grid;
   }
