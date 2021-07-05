@@ -1,0 +1,179 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+/* Header*/
+#header-nav {
+  background-color: rgb(2, 4, 10);
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  /* Site name */
+  font-family: "Playfair Display", serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 3%;
+}
+
+#nav-list a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#nav-list hr {
+  margin: 0;
+  width: 100%;
+}
+
+#nav-list a:hover {
+  background: rgb(225, 25, 25);
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* End of Header */
+
+/* Menu Page */
+#menu-title {
+  color: black;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.menu-item-tile {
+  position: relative;
+  border: 3px solid #222;
+  border-radius: 20px;
+  background-color: rgb(51, 92, 190);
+  color: #fff;
+  box-sizing: border-box;
+  display: block;
+  box-shadow: 5px 10px #888888;
+}
+
+.menu-item-tile h3 {
+  text-align: center;
+  margin-bottom: 0px;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.menu-item-tile div {
+  padding: 1.5vw;
+  font-size: 0.95em;
+}
+
+.menu-item-tile .food-description {
+  font-style: italic;
+}
+
+#menu-title {
+  margin-bottom: 20px;
+}
+/* End Menu Page */
+
+/* Large and Medium Devices */
+@media (min-width: 992px) {
+  /* Menu Page */
+  .menu-item-tile {
+    position: absolute;
+    width: 25vw;
+  }
+
+  .menu-item-tile div {
+    padding: 0.3vw;
+    font-size: 1.2vw;
+  }
+
+  #chicken {
+    left: 10vw;
+  }
+
+  #beef {
+    left: 37.5vw;
+  }
+
+  #sushi {
+    right: 10vw;
+  }
+  /* End Menu Page */
+}
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Menu Page */
+  #chicken,
+  #beef {
+    margin-bottom: 30px;
+    width: 355px;
+    height: 1670px;
+  }
+
+  #chicken {
+    margin-left: 5px;
+  }
+
+  #beef {
+    margin-left: 20px;
+    right: -10px;
+  }
+
+  #sushi {
+    width: 740px;
+    margin-left: -10px;
+    left: 15px;
+  }
+  /* End Menu Page */
+}
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+  /* Menu Page */
+  .menu-item-tile {
+    margin: 3% 10% 10%;
+    width: 80%;
+  }
+
+  .menu-item-tile div {
+    padding-bottom: 0;
+  }
+
+  .menu-item-tile span {
+    padding: 1.5vw;
+    padding-bottom: 3vw;
+    padding-top: 0;
+  }
+
+  .menu-item-tile span a {
+    text-decoration: underline;
+    color: red;
+  }
+
+  .menu-item-tile span a:hover {
+    background-color: #fff;
+  }
+  /* End Menu Page */
+}
